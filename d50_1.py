@@ -8,18 +8,6 @@ import scipy.ndimage as ndimage
 from scipy.interpolate import interp2d
 # set parameter
 
-xmin = 0.0 #x limit
-xmax = 120.0 # x limit
-ymin = 0.0 # y limit
-ymax = 290.0 # y lmit
-xnum = 5 # number of data points in x
-ynum = 4 # number of data points in y
-xnew_min = xmin #refine min value, usually the same with previous one
-xnew_max = xmax
-ynew_min = ymin
-ynew_max = ymax
-xnew_num = 1201
-ynew_num = 3201
 
 # plot parameter
 Dmin = 0.8
